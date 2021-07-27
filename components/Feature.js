@@ -17,11 +17,11 @@ export default function Feature() {
         <article className="card">
                   <Image
             
-            layout='responsive'
+            layout='fixed'
             src={"/image/brand/brand.svg"}
             alt={"all in one mentor"}
             width={300}
-            height={300}
+            height={280}
           />
           <div>
             <h3>Solution Videos of Important Textbooks</h3>
