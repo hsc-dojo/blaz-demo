@@ -1,0 +1,45 @@
+.login {
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.loginimage{
+    padding: 2px 10px;
+}
+
+.loginPrompt {
+    padding: 5px 15px;
+}
+.loginimage:hover{
+    transform: scale(1.1);
+}
+
+.login h5 {
+    font-size: 1.5rem;
+}
+
+@media (max-width:786px) {
+    .login {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px 15px;
+    }
+
+    .loginimage {
+        margin: 5px 10px;
+        padding: 2px 10px;
+    }
+
+    .loginPrompt {
+        padding: 5px 15px;
+        margin: 5px 10px;
+    }
+}
