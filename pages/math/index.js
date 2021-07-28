@@ -1,13 +1,15 @@
-import Layout from "@/components/Layout"
+import React from "react";
+import Layout from "@/components/Layout";
+import Header from "@/components/Header";
+import Equation from "equation/math/Equation";
 
-
-export default function MathHomePage() {
-    return (
-        <div>
-            
-            <Layout  physics={true}>
-               <h1>Mathematics</h1>
-            </Layout>
-        </div>
-    )
+export default function MathPage() {
+  return (
+      <div>
+          <Layout physics={true}>
+              <Equation number={1}/>
+          </Layout>
+      
+    </div>
+  );
 }

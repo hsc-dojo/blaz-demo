@@ -2,22 +2,19 @@ import styles from "@/styles/Feature.module.css";
 import Image from "next/image";
 import { FaExclamationCircle } from "react-icons/fa";
 
-
-
 export default function Feature() {
   return (
     <div className={styles.feature}>
       <h1 className={styles.lead}>
         Why BLAZE is One Thing You
         <span style={{ color: "crimson" }}>
+          {" "}
           Need <FaExclamationCircle />
         </span>
       </h1>
       <div className={styles.featureContainer}>
         <article className="card">
-                  <Image
-            
-            layout='fixed'
+          <Image
             src={"/image/brand/brand.svg"}
             alt={"all in one mentor"}
             width={300}
@@ -30,7 +27,7 @@ export default function Feature() {
               of every problems given in the exercise of different textbooks for
               HSC level, for instance, problems given in the exercise of Dr.
               Giasuddin Sir, Ketab sir, Hazari and Nag sir and many more are
-              solved precisely and in a step by step manner in this eBook.{" "}
+              solved precisely and in a step by step manner in this eBook.
               <br />
               Also important problems from example sections are also explained.
             </p>
@@ -38,9 +35,8 @@ export default function Feature() {
         </article>
 
         <article className="card">
-                  <Image
-                      
-            layout='responsive'
+          <Image
+            layout="responsive"
             src={"/image/brand/all_in_one _mentor.png"}
             alt={"all in one mentor"}
             width={400}
@@ -59,9 +55,8 @@ export default function Feature() {
         </article>
 
         <article className="card">
-                  <Image
-                    
-            layout = 'responsive'
+          <Image
+            layout="responsive"
             src={"/image/brand/model_test.png"}
             alt={"all in one mentor"}
             width={300}
@@ -80,9 +75,8 @@ export default function Feature() {
         </article>
 
         <article className="card">
-                  <Image
-                    
-            layout = 'responsive'
+          <Image
+            layout="responsive"
             src={"/image/brand/study.png"}
             alt={"all in one mentor"}
             width={300}

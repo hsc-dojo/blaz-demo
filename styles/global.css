@@ -10,7 +10,7 @@
 html,
 body {
     font-family: 'Zen Tokyo Zoo', cursive;
-    line-height: 1.8;
+    line-height: 1.8rem;
     background: #fff;
     
 }
@@ -21,6 +21,8 @@ a {
 }
 
 
+
+
 .btn {
     display: inline-block;
     background: crimson;
@@ -29,11 +31,18 @@ a {
     cursor: pointer;
     border-radius: 10px;
     font-size: 1.2rem;
+    border: none;
+    padding: 5px 15px;
+    margin: 10px 20px;
+}
+
+.d-none {
+    display: none;
 }
 
 .btn:hover {
-    transform: scale(1.2);
-    background-color:#000;
+    transform: scale(1.1);
+    background-color:#333;
 }
 
 .btn-secondary {
@@ -44,8 +53,9 @@ a {
     border: 0;
     border-radius: 5px;
     padding: 5px 15px;
-    margin: 0 20px;
+    margin: 10px 20px;
     cursor: pointer;
+    
 }
 
 .btn-secondary:hover {
@@ -62,6 +72,90 @@ a {
     margin-right: 5px;
 }
 .card {
-    background: #fff;
+    background: lemonchiffon;
     padding: 1rem;
+    margin: 10px 5px;
 }
+
+.short-questions {
+    font-family:Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+ 
+ .card p {
+     font-size: 1rem;
+ }
+ 
+ .card h6 {
+     color: crimson;
+     font-size: 1.4rem;
+ }
+
+ @media (max-width:768px) {
+     .short-questions {
+         display: flex;
+         flex-direction: column;
+         margin-top: 2rem;
+     }
+ }
+
+ .videoItem {
+     margin:10px;
+     display: grid;
+     padding: 20px 20px;
+     grid-template-columns: repeat(4, 1fr);
+     grid-gap: 2rem;
+     font-family: Arial, Helvetica, sans-serif;
+     align-items: center;
+ }
+
+ .videoItem .display {
+    
+     grid-column: 1/ span 3;
+     align-items: center;
+ }
+
+ .videoItem li {
+   
+         list-style: none;
+         font-size: 2rem;
+         background: crimson;
+         margin: 10px 20px;
+         padding: 5px 10px;
+         color:white;
+         cursor:pointer;
+         border-radius: 10px;
+         text-align: center;
+    
+ }
+
+ .videoItem li:hover {
+      background: #333;
+ }
+
+ .videoItem .details {
+     background: #EEEDED;
+     border-radius: 20px ;
+     text-align: center;
+     padding: 10px 20px;
+ }
+ 
+ .videoItem p {
+     color: crimson;
+     font-size :1.3rem;
+ }
+
+ @media (max-width:768px) {
+     .videoItem {
+         margin: 10px;
+         display: grid;
+         padding: 20px 20px;
+         grid-template-columns: repeat(1, 1fr);
+         grid-gap: 2rem;
+         font-family: Arial, Helvetica, sans-serif;
+         align-items: center;
+     }
+ }
