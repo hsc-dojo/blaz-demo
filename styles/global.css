@@ -121,7 +121,7 @@ a {
  }
 
  .videoItem .screen {
-     height: 480px
+     height: 480px;
  }
 
  .videoItem li {
@@ -171,6 +171,6 @@ a {
      }
 
       .videoItem .screen {
-          height: 300px
+          height: 200px;
       }
  }

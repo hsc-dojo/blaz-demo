@@ -151,7 +151,7 @@ export default function VideoItem() {
                     `
                 <li 
                 onClick= "{{
-                      document.querySelector('.player').innerHTML = '<iframe className=${className} src=${video.Link}  allow=${allow} width=${width}> </iframe> '
+                      document.querySelector('.player').innerHTML = '<iframe class=${className} src=${video.Link}  allow=${allow} width=${width}> </iframe> '
                       document.querySelector('.details').innerHTML='  <p>Password:  ${video.password} </p> <h2>${video.QuestionTitle} </h2> ${video.Subject} | ${video.Author} | ${video.Chapter} '
                     
                     }}">
