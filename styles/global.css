@@ -103,27 +103,33 @@ a {
  }
 
  .videoItem {
-     margin:10px;
+  
      display: grid;
      padding: 20px 20px;
      grid-template-columns: repeat(4, 1fr);
-     grid-gap: 2rem;
+     grid-gap: 1rem;
      font-family: Arial, Helvetica, sans-serif;
-     align-items: center;
+     
  }
 
  .videoItem .display {
     
      grid-column: 1/ span 3;
      align-items: center;
+     margin-top: 10px;
+    
+ }
+
+ .videoItem .screen {
+     height: 480px
  }
 
  .videoItem li {
    
          list-style: none;
-         font-size: 2rem;
+         font-size: 1rem;
          background: crimson;
-         margin: 10px 20px;
+         margin: 5px 5px;
          padding: 5px 10px;
          color:white;
          cursor:pointer;
@@ -154,8 +160,17 @@ a {
          display: grid;
          padding: 20px 20px;
          grid-template-columns: repeat(1, 1fr);
-         grid-gap: 2rem;
+         grid-gap: 1rem;
          font-family: Arial, Helvetica, sans-serif;
          align-items: center;
      }
+
+     .videoItem player {
+         border:none;
+        
+     }
+
+      .videoItem .screen {
+          height: 300px
+      }
  }
