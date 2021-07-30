@@ -1,0 +1,37 @@
+.ListCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 0.2rem solid crimson;
+    margin: 5px 10px;
+    padding: 10px 20px;
+}
+
+.ListCard  h3 {
+    font-size: 2rem;
+    color: crimson;
+    
+}
+
+.ListCard h5 {
+    font-size: 1.2rem;
+    font-family: Verdana, Tahoma, sans-serif;
+    
+}
+
+.link {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+
+.link:hover {
+    background: #333;
+    transform: scale(1.1);
+}
