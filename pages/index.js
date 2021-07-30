@@ -9,7 +9,7 @@ export default function Home() {
         
         <div className={styles.ChapterList}>
            <ChapterList chapterName={"Work Power and Energy"} link={"physics/mathematical_problem/wpe"} Writer={"Dr Md Gyasuddin Ahmed"} />
-           <ChapterList chapterName={"Static Electricity"} link={"physics/mathematical_problem/wpe"} Writer={"Dr Md Gyasuddin Ahmed"}/>
+           <ChapterList chapterName={"Static Electricity"} link={"physics/mathematical_problem/static_electricity"} Writer={"Dr Md Gyasuddin Ahmed"}/>
         </div>
        
       </Layout>
