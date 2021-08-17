@@ -23,7 +23,7 @@ export default function Feature() {
           <div>
             <h3>Solution Videos of Important Textbooks</h3>
             <p>
-              In this eBook, you will find step by step solution video tutorial
+              In this eBook, you will find step by step solution video tutorials
               of every problems given in the exercise of different textbooks for
               HSC level, for instance, problems given in the exercise of Dr.
               Giasuddin Sir, Ketab sir, Hazari and Nag sir and many more are
@@ -48,7 +48,7 @@ export default function Feature() {
               This eBook is the one and only tutor who will guide you to the
               ultimate success. So now you can study and take test in a
               structured and effective process designed by the best mentors
-              around the country. Now with this eBook you dont have to pay all
+              around the country. With this eBook, now you dont have to pay all
               the regular payment of multiple coaching or personal mentors.
             </p>
           </div>
@@ -68,7 +68,7 @@ export default function Feature() {
               Every session ends with a mock up test so that you can judge your
               understanding and boost up your confidence over the content of
               respective study sessions. <br />
-              Also during the subscription period, everyone will be provied with
+              Also during the subscription period, everyone will be provided with
               two coaching class per week.
             </p>
           </div>
@@ -85,7 +85,7 @@ export default function Feature() {
           <div>
             <h3>Study Routine</h3>
             <p>
-              This Ebook has a dedicated secton to guide you on how you should
+              This Ebook has a dedicated section to guide you on how you should
               study and take test in a session wise structured manner so that
               you can complete you HSC syllabus in the most effective manner in
               the shortest possible time. <br />
